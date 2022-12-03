@@ -4,13 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="cssReset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Homie</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <a class="" href="#"><img class="logo" src="#" alt="logo"></a>
+        <nav class="mobileNav">
+            <a class="navLogo" href="#"><img class="logo" src="#" alt="logo"></a>
+            <a class="btn btnDownload" href="">Download now</a>
+
+            <div class="dropdownMenu">
+                <ul>
+                    <li>
+                        <a href="#">About</a> 
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Features</a> 
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Pricing</a> 
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Contact</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+
+        <nav class="hidden desktopNav">
+            <a class="navLogo" href="#"><img class="logo" src="#" alt="logo"></a>
             <a href="#">About</a>
             <a href="#">Features</a>
             <a href="#">Pricing</a>
