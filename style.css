@@ -1,7 +1,95 @@
-.hidden{
-    display: none;
+body{
+
 }
 
-.desktopNav{
+
+/* ----------------HEADER----------------- */
+
+header{
+    width: 100%;
     background-color: red;
+
 }
+
+.mobileNav{
+    display: flex;
+    flex-direction: column;
+}
+
+.navLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.dropdownItems{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.navLink{
+text-align: center;
+
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+
+/* ----------------BODY----------------- */
+/* ------------SECTION HOME------------- */
+
+.home{
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.homeContent p{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.homeBtns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn{
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btnTryfree{
+background-color: #4851C3;
+color: white;
+}
+
+.btnContact{
+    color: black;
+}
+
+.homeImg{
+    width: 100%;
+    
+}
+
+

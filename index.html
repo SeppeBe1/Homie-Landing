@@ -13,61 +13,47 @@
     <header>
         <nav class="mobileNav">
             <a class="navLogo" href="#"><img class="logo" src="#" alt="logo"></a>
-            <a class="btn btnDownload" href="">Download now</a>
 
-            <div class="dropdownMenu">
-                <ul>
-                    <li>
-                        <a href="#">About</a> 
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">Features</a> 
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">Pricing</a> 
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="#">Contact</a> 
-                    </li>
-                </ul>
-            </div>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="dropdownItems">
+                <a class="navLink btnDownload" href="">Download now</a>
+                <a class="navLink" href="#">About</a> 
+                <a class="navLink" href="#">Features</a> 
+                <a class="navLink" href="#">Pricing</a> 
+                <a class="navLink" href="#">Contact</a> 
             </div>
 
+            <!-- <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> -->
         </nav>
 
-        <nav class="hidden desktopNav">
+        <!-- <nav class="hidden desktopNav">
             <a class="navLogo" href="#"><img class="logo" src="#" alt="logo"></a>
             <a href="#">About</a>
             <a href="#">Features</a>
             <a href="#">Pricing</a>
             <a href="#">Contact</a>
             <a class="btn btnDownload" href="">Download now</a>
-        </nav>
+        </nav> -->
     </header>
 
-    <div class="home">
+    <section class="home">
         <div class="homeContent">
-            <h1>COHOUSE</h1>
-            <p>lorem dadie ipsum</p>
-            <a class="btn btnTryfree" href="#">try for free</a>
-            <a class="btn btnContact" href="#">contact sales</a>
+            <h1>Homie, living together as one</h1>
+            <p>lorem dadie ipsumlorem dadie ipsumlorem dadie ipsumlorem dadie ipsumlorem dadie ipsumlorem dadie ipsumlorem dadie ipsumlorem dadie ipsum</p>
+            <div class="homeBtns">
+                <a class="btn btnTryfree" href="#">try for free</a>
+                <a class="btn btnContact" href="#">contact sales</a>
+            </div>
         </div>
         <div class="homeImages">
-            <img class="homeImg" src="#" alt="landingImg">
+            <img class="homeImg" src="assets/images/homeImg.svg" alt="landingImg">
         </div>
-    </div>
+    </section>
 
-    <div class="About">
+    <section class="About">
         <h2>About</h2>
         <ul>
             <li>
@@ -86,9 +72,9 @@
                 <p class="contentBullet">lorem ipsum</p>
             </li>
         </ul>
-    </div>
+    </section>
 
-    <div class="features">
+    <section class="features">
         <div class="featInfo"> 
             <h2>Features app blabla</h2>
             <ul>
@@ -128,9 +114,9 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
 
-    <div class="pricing">
+    <section class="pricing">
         <h2>Pricing</h2>
         <p>Lorem ipsum</p>
         <span>Slider monthly / annualy</span>
@@ -167,9 +153,9 @@
                 <a class="btn btnChoosePricing" href="#"></a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="Contact">
+    <section class="Contact">
             <form action="post">
                 <label class="hidden" for="fullname"></label>
                 <input type="text" name="fullname" id="fullname" placeholder="full name">
@@ -182,7 +168,7 @@
 
                 <input type="submit" value="Send message">
             </form>
-    </div>
+    </section>
 
     <footer>
         <div class="footP1">
@@ -199,6 +185,6 @@
         </ul>
         <span>Copyright Homie</span>
     </footer>
-    
+    <script src="main.js"></script>
 </body>
 </html>
