@@ -7,7 +7,6 @@ body{
 
 header{
     width: 100%;
-    background-color: red;
 
 }
 
@@ -41,12 +40,6 @@ text-align: center;
 }
 
 /* ----------------BODY----------------- */
-/* ------------SECTION HOME------------- */
-
-.home{
-    background-color: #F5F5F5;
-    margin-bottom: 30px;
-}
 
 h1{
     font-size: 50px;
@@ -54,6 +47,34 @@ h1{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+h2{
+font-size: 30px;
+text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+}
+
+.btn{
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* ------------SECTION HOME------------- */
+
+.home{
+    background-color: #F5F5F5;
+}
+
 
 .homeContent p{
     margin-top: 20px;
@@ -70,14 +91,6 @@ h1{
 
 }
 
-.btn{
-    border: solid black 2px;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
 .btnTryfree{
 background-color: #4851C3;
 color: white;
@@ -89,7 +102,67 @@ color: white;
 
 .homeImg{
     width: 100%;
-    
 }
+
+/* -----------SECTION ABOUT-------------*/
+
+.about{
+    background-color: #F4F3F1;
+    padding-top: 30px;
+
+}
+
+.about
+
+.aboutItems{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+.aboutItem{
+    margin-top: 30px;
+}
+
+.aboutItem:last-child{
+    margin-bottom: 30px;
+}
+
+.aboutIcon{
+    width: 50px;
+    text-align: center;
+}
+ /* ----------SECTION FEATURES----------*/
+
+ .features{
+    text-align: center;
+ }
+ .featBtn{
+    margin-top: 30px;
+ }
+
+ .swapper{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+ }
+
+ .arrow{
+    width: 30px;
+ }
+.arrowLeft{
+    transform: scaleX(-1);
+}
+
+.featuresImg{
+    text-align: center;
+    width: 100%;
+}
+
 
 
