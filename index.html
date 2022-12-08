@@ -134,7 +134,9 @@
     </section>
 
     <section class="Contact">
-            <form action="post">
+        <img class="contactImg" src="assets/images/mail.svg" alt="mailImg">
+            <form class="contactForm" action="post">
+                <h2>Get in touch</h2>
                 <label class="hidden" for="fullname"></label>
                 <input type="text" name="fullname" id="fullname" placeholder="full name">
 
@@ -142,8 +144,8 @@
                 <input type="text" name="email" id="email" placeholder="email">
 
                 <label class="hidden" for="message"></label>
-                <input type="textarea" name="message" id="message" placeholder="Message">
-
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                
                 <input type="submit" value="Send message">
             </form>
     </section>

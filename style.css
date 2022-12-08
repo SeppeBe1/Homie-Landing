@@ -7,7 +7,6 @@ body{
 
 header{
     width: 100%;
-
 }
 
 .mobileNav{
@@ -31,8 +30,7 @@ header{
 }
 
 .navLink{
-text-align: center;
-
+    text-align: center;
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -88,7 +86,6 @@ h3{
     justify-content: space-evenly;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 .btnTryfree{
@@ -110,8 +107,6 @@ color: white;
     background-color: #F4F3F1;
     padding-top: 30px;
 }
-
-.about
 
 .aboutItems{
 display: flex;
@@ -139,8 +134,8 @@ margin-right: 50px;
  .features{
     text-align: center;
     padding-top: 30px;
-
  }
+
  .featBtn{
     margin-top: 30px;
  }
@@ -215,9 +210,7 @@ margin-right: 50px;
     font-size: 20px;
     margin-top: 10px;
     list-style-image:url('assets/images/check.svg');
-    
     list-style-position: inside;
-    
  }
 
  .planPrice{
@@ -226,11 +219,49 @@ margin-right: 50px;
     margin-bottom: 20px;
  }
  
-
-
  .btnChoosePricing{
     padding: 10px 40px;
  }
+
+  /* ----------SECTION CONTACT----------*/
+
+  .Contact{
+    text-align: center;
+  }
+
+  .contactImg{
+    width: 300px;
+  }
+
+  .contactForm{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .contactForm h2{
+    margin-bottom: 20px;
+  }
+
+  .contactForm input{
+    padding: 10px 7px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .contactForm textarea{
+    padding: 10px 7px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+
+
+
 
 
 
