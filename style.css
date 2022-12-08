@@ -109,7 +109,6 @@ color: white;
 .about{
     background-color: #F4F3F1;
     padding-top: 30px;
-
 }
 
 .about
@@ -139,6 +138,8 @@ margin-right: 50px;
 
  .features{
     text-align: center;
+    padding-top: 30px;
+
  }
  .featBtn{
     margin-top: 30px;
@@ -150,6 +151,8 @@ margin-right: 50px;
     font-size: 25px;
     text-align: center;
     margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
  }
 
  .arrow{
@@ -163,6 +166,71 @@ margin-right: 50px;
     text-align: center;
     width: 100%;
 }
+
+ /* ----------SECTION PRICING----------*/
+
+ .pricing{
+    text-align: center;
+ }
+
+ .subscriptions{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+
+ .subscription1{}
+ .subscription2{}
+
+ .subscription3{
+    color: white;
+    background-color: #181059;
+ }
+
+ .subscription3 .btnChoosePricing{
+    color: white;
+    border: 2px solid white;
+ }
+
+ 
+ .subItem{
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+ }
+
+ .subItem h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+ .subItem ul {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .subItem ul li{
+    font-size: 20px;
+    margin-top: 10px;
+    list-style-image:url('assets/images/check.svg');
+    
+    list-style-position: inside;
+    
+ }
+
+ .planPrice{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ 
+
+
+ .btnChoosePricing{
+    padding: 10px 40px;
+ }
 
 
 
