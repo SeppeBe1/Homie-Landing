@@ -17,6 +17,10 @@ header{
     flex-direction: column;
 }
 
+.desktopNav{
+    display: none;
+}
+
 .navLogo{
     display: inline-block;
     margin-left: auto;
@@ -36,6 +40,58 @@ header{
     /* display: flex; */
     flex-direction: column;
     background-color: white;
+}
+
+/* ------------TABLET HEADER----------- */
+@media(min-width: 560px){
+    body{
+        background-color: green;
+    }
+
+}
+
+/* -----------DESKTOP HEADER---------- */
+@media(min-width: 992px){
+    body{
+        background-color: blue;
+    }
+
+    .navLogo{
+        padding-left: 0px;
+        margin-left: 120px;
+    }
+
+    .navItems{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        margin-right: 120px;
+    }
+
+    .logoAndHamburger{
+        display: none;
+    }
+    
+    .dropdownItems{
+        display:none;
+    }
+
+    .desktopNav{
+        display: flex;
+        flex-direction: row;
+        top: 50%;
+        align-items: center;
+    }
+
+    .desktopNav a{
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+
+    
 }
 
 /* -------------HAMBURGER-------------- */
@@ -70,6 +126,7 @@ header{
 h1{
     font-size: 50px;
     text-align: center;
+    padding-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
 }
