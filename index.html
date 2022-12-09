@@ -12,21 +12,22 @@
 <body>
     <header>
         <nav class="mobileNav">
-            <a class="navLogo" href="#"><img class="logo" src="assets/images/logo.svg" alt="logo"></a>
+            <div class="logoAndHamburger">
+                <a class="navLogo" href="#"><img class="logo" src="assets/images/logo.svg" alt="logo"></a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
 
-            <div class="dropdownItems">
+            <div class="dropdownItems" style="display: flex;">
                 <a class="navLink btnDownload" href="">Download now</a>
                 <a class="navLink" href="#">About</a> 
                 <a class="navLink" href="#">Features</a> 
                 <a class="navLink" href="#">Pricing</a> 
                 <a class="navLink" href="#">Contact</a> 
             </div>
-
-            <!-- <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div> -->
         </nav>
 
         <!-- <nav class="hidden desktopNav">
@@ -151,19 +152,20 @@
     </section>
 
     <footer>
-        <div class="footP1">
-            <h2>Footer</h2>
-            <p></p>
-        </div>
+        <div class="footerp">
+            <h3>Homie</h3>
+            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
 
-        <ul class="links">
+        </div>
+        <h3>Navigation</h3>
+        <ul class="footerNav">
             <li><a class="footerLinks" href="#">Home</a></li>
             <li><a class="footerLinks" href="#">about</a></li>
             <li><a class="footerLinks" href="#">feat</a></li>
             <li><a class="footerLinks" href="#">pricing</a></li>
             <li><a class="footerLinks" href="#">contact</a></li>
         </ul>
-        <span>Copyright Homie</span>
+        <span class="copyright">&copy;2022 Homie, All rights reserved</span>
     </footer>
     <script src="main.js"></script>
 </body>
