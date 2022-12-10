@@ -497,6 +497,25 @@ color: white;
     border: 2px solid black;
   }
 
+   /* ----------DESKTOP PRICING--------- */
+@media(min-width: 992px){
+    .contact{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .contactForm{
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .contactImg{
+        width: 400px;
+    }
+}
+
     /* ----------SECTION FOOTER----------*/
 
     footer{
