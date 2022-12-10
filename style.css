@@ -1,10 +1,38 @@
-body{
+/* ----------------GENERAL----------------- */
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2{
+font-size: 30px;
+text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+}
+
+.btn{
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
     display: none;
   }
-
 
 /* ----------------HEADER----------------- */
 
@@ -89,9 +117,6 @@ header{
         text-decoration: none;
         color: black;
     }
-
-
-    
 }
 
 /* -------------HAMBURGER-------------- */
@@ -112,7 +137,6 @@ header{
     background-color: black;
 }
 
-
 .navLink{
     text-align: center;
     text-decoration: none;
@@ -121,43 +145,11 @@ header{
     border-bottom: 2px solid black;
 }
 
-/* ----------------BODY----------------- */
-
-h1{
-    font-size: 50px;
-    text-align: center;
-    padding-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-h2{
-font-size: 30px;
-text-align: center;
-}
-
-h3{
-    font-size: 25px;
-    text-align: center;
-}
-
-.logo{
-    height: 50px;
-}
-
-.btn{
-    border: solid black 2px;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
 /* ------------SECTION HOME------------- */
 
 .home{
     background-color: #F5F5F5;
 }
-
 
 .homeContent p{
     margin-top: 20px;
@@ -186,6 +178,36 @@ color: white;
     width: 80%;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+/* -----------DESKTOP HOME---------- */
+@media(min-width: 992px){
+
+    .home{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .homeContent{
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+
+    .homeContent p{
+       margin-left: 150px;
+       margin-right: 150px;
+    }
+
+    .homeImg{
+        width: 800px;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-left: 80px;
+        /* padding-right: 80px; */
+    }
+
 }
 
 /* -----------SECTION ABOUT-------------*/
