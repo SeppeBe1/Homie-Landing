@@ -72,17 +72,13 @@ header{
 
 /* ------------TABLET HEADER----------- */
 @media(min-width: 560px){
-    body{
-        background-color: green;
-    }
+
 
 }
 
 /* -----------DESKTOP HEADER---------- */
 @media(min-width: 992px){
-    body{
-        background-color: blue;
-    }
+
 
     .navLogo{
         padding-left: 0px;
@@ -295,6 +291,85 @@ color: white;
 .featuresImg{
     text-align: center;
     width: 100%;
+}
+
+.featuresDesktop{
+    display: none;
+}
+
+/* ----------DESKTOP FEATURES--------- */
+@media(min-width: 992px){
+    .featuresMobile{
+        display: none;
+    }
+
+    .featuresDesktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .feats1{
+        margin-left: 220px;
+        width: 500px;
+        text-align: left;
+    }
+
+    .feats1 h3{
+        font-size: 40px;
+        width: 400px;
+        text-align: left;
+    }
+
+    .featItems{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .featItem{
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+
+        border-radius: 7px;
+        box-shadow: 3px 5px lightgrey;
+        padding: 10px 30px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .featuresImg{
+        width: 500px;
+    }
+
+    .feats2{
+        width: 500px;
+        text-align: left;
+        margin-right: 220px;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    .feats2 h4{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .feats2 p {
+        margin-bottom: 40px;
+    }
+
+    .featInfo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featInfoItem{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
 }
 
  /* ----------SECTION PRICING----------*/
