@@ -218,16 +218,19 @@ color: white;
 }
 
 .aboutItems{
-display: flex;
-flex-direction: column;
-text-align: center;
-margin-left: 50px;
-margin-right: 50px;
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .aboutItem{
     margin-top: 30px;
+}
+
+.aboutItem h3{
+    margin-bottom: 30px;
 }
 
 .aboutItem:last-child{
@@ -237,6 +240,29 @@ margin-right: 50px;
 .aboutIcon{
     width: 50px;
     text-align: center;
+}
+
+/* ------------DESKTOP ABOUT----------- */
+@media(min-width: 992px){
+
+    .about{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .aboutItems{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .aboutItem{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
  /* ----------SECTION FEATURES----------*/
 
