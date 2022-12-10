@@ -462,8 +462,12 @@ color: white;
 
   /* ----------SECTION CONTACT----------*/
 
-  .Contact{
-    text-align: center;
+  .contact{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
   }
 
   .contactImg{
@@ -473,6 +477,7 @@ color: white;
   .contactForm{
     display: flex;
     flex-direction: column;
+    width: 300px;
 
     margin-left: 50px;
     margin-right: 50px;
@@ -497,7 +502,7 @@ color: white;
     border: 2px solid black;
   }
 
-   /* ----------DESKTOP PRICING--------- */
+   /* -----------DESKTOP CONTACT---------- */
 @media(min-width: 992px){
     .contact{
         display: flex;
@@ -508,7 +513,6 @@ color: white;
 
     .contactForm{
         width: 500px;
-        margin-left: 50px;
     }
 
     .contactImg{
